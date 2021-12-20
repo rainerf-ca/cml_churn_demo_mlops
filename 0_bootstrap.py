@@ -10,6 +10,9 @@
 
 # Install the requirements
 !pip3 install -r requirements.txt --progress-bar off
+
+# update pytest to avoid collision with attrs > 19.1.0
+!pip3 install --upgrade pytest
   
 # Create the directories and upload data
 
